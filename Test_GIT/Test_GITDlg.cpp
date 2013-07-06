@@ -12,7 +12,7 @@
 #endif
 
 
-// 用于应用程序“关于”菜单项的 CAboutDlg 对话框
+// 用于应用程序“关于”菜单项的 CAboutDlg 对话框  
 
 class CAboutDlg : public CDialogEx
 {
@@ -43,7 +43,7 @@ BEGIN_MESSAGE_MAP(CAboutDlg, CDialogEx)
 END_MESSAGE_MAP()
 
 
-// CTest_GITDlg 对话框
+// CTest_GITDlg 对话框  
 
 
 
@@ -66,7 +66,7 @@ BEGIN_MESSAGE_MAP(CTest_GITDlg, CDialogEx)
 END_MESSAGE_MAP()
 
 
-// CTest_GITDlg 消息处理程序
+// CTest_GITDlg 消息处理程序  
 
 BOOL CTest_GITDlg::OnInitDialog()
 {
@@ -92,7 +92,7 @@ BOOL CTest_GITDlg::OnInitDialog()
 		}
 	}
 
-	// 设置此对话框的图标。当应用程序主窗口不是对话框时，框架将自动
+	// 设置此对话框的图标。当应用程序主窗口不是对话框时，框架将自动 
 	//  执行此操作
 	SetIcon(m_hIcon, TRUE);			// 设置大图标
 	SetIcon(m_hIcon, FALSE);		// 设置小图标
