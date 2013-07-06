@@ -30,3 +30,7 @@ protected:
 	afx_msg HCURSOR OnQueryDragIcon();
 	DECLARE_MESSAGE_MAP()
 };
+
+
+
+//刚刚修改的注释，测试提交到git
