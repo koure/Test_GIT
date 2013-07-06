@@ -10,7 +10,7 @@ class CTest_GITDlg : public CDialogEx
 {
 // 构造
 public:
-	CTest_GITDlg(CWnd* pParent = NULL);	// 标准构造函数
+	CTest_GITDlg(CWnd* pParent = NULL);	// 标准构造函数 窗口
 
 // 对话框数据
 	enum { IDD = IDD_TEST_GIT_DIALOG };
